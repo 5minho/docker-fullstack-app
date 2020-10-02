@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92b25717-10e4-46da-bcf4-5dde6a358953" name="Default Changelist" comment="" />
+    <list default="true" id="64fcb403-64d9-4b04-abed-f45c6333e6a0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1iJ6zL9pKSPdLyp2tJBnsjR355Z" />
+  <component name="ProjectId" id="1iJmG8H469JgNNzSB34XOJigVcc" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,20 +26,15 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="92b25717-10e4-46da-bcf4-5dde6a358953" name="Default Changelist" comment="" />
-      <created>1601613609710</created>
+      <changelist id="64fcb403-64d9-4b04-abed-f45c6333e6a0" name="Default Changelist" comment="" />
+      <created>1601633970565</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1601613609710</updated>
-      <workItem from="1601613611066" duration="5213000" />
+      <updated>1601633970565</updated>
+      <workItem from="1601633971623" duration="690000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,28 @@
+language: generic
+
+sudo: required
+
+services:
+  - docker
+
+# 테스트 이미지 빌드
+before_install:
+  - docker build -t 5minho/react-test-app -f ./frontend/Dockerfile.dev ./frontend
+
+# 테스트
+script:
+  - docker run -e CI=true 5minho/react-test-app npm run test
+
+# 테스트가 끝나고 각각 이미지들을 빌드해준다.
+after_success:
+  - docker build -t 5minho/docker-frontend ./frontend
+  - docker build -t 5minho/docker-backend ./backend
+  - docker build -t 5minho/docker-nginx ./nginx
+
+  # 도커 허브 로그인
+  - echo "$DOCKER_HUB_PASSWORD" | docker login -u "$DOCKER_HUB_ID" -- password-stdin
+
+  # 도커 허브에 이미지 푸
+  - docker push 5minho/docker-frontend
+  - docker push 5minho/docker-backend
+  - docker push 5minho/docker-nginx
